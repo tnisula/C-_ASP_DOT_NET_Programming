@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Library WebSite</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Page">
+        <div id="Header">Library WebSite</div>
+        <div id="Menu"><a href="Default.aspx">Home</a>&nbsp;&nbsp;&nbsp; <a href="Books.aspx">Books</a>&nbsp;&nbsp;&nbsp; <a href="Magazines.aspx">Magazines</a>&nbsp;&nbsp;&nbsp; <a href="MusicItems.aspx">Music Items</a>&nbsp;&nbsp;&nbsp; <a href="About.aspx">About</a></div>
+        <div id="Content">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="Footer">Footer</div>
+    </div>
+    </form>
+</body>
+</html>

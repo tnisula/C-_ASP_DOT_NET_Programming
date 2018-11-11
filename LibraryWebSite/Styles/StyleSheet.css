@@ -1,0 +1,23 @@
+﻿#Page
+{
+width:900px;
+}
+#Header
+{
+background-color:lightgreen;
+font-size:30px;
+height:80px;
+text-align:center
+}
+#Menu
+{
+background-color:antiquewhite;
+}
+#Content
+{
+height:440px;
+}
+#Footer
+{
+background-color: lightgreen;
+}
